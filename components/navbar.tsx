@@ -41,7 +41,7 @@ export function Navbar() {
           className="text-lg font-bold tracking-tight text-foreground transition-colors hover:text-primary"
         >
           {"<"}
-          <span className="text-primary">Portfolio</span>
+          <span className="text-primary">Ali Hamza</span>
           {" />"}
         </a>
 
