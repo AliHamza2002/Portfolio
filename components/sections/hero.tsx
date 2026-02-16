@@ -48,7 +48,7 @@ export function Hero() {
           <h2 className="mb-4 text-xl font-medium text-foreground sm:text-2xl">
             Hi There!{" "}
             <span className="wave-hand inline-block text-2xl sm:text-3xl">
-              {"\\ud83d\\udc4b"}
+              {""}
             </span>
           </h2>
 
