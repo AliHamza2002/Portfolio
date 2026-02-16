@@ -47,9 +47,9 @@ export function Hero() {
         <div className="max-w-2xl text-center lg:text-left">
           <h2 className="mb-4 text-xl font-medium text-foreground sm:text-2xl">
             Hi There!{" "}
-            <span className="wave-hand inline-block text-2xl sm:text-3xl">
+            {/* <span className="wave-hand inline-block text-2xl sm:text-3xl">
               {""}
-            </span>
+            </span> */}
           </h2>
 
           <h1 className="mb-2 text-balance text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
