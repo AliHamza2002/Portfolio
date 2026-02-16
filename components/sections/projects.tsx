@@ -3,6 +3,12 @@
 import Image from "next/image"
 import { ExternalLink, Github, ImagePlus } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import img1 from "../../public/project/1707327853026.jpg"
+import img2 from "../../public/project/1766676228463.jpg"
+import img3 from "../../public/project/1766676354110.jpg"
+import img4 from "../../public/project/1766676513575.jpg"
+import img5 from "../../public/project/Screenshot 2026-02-16 194626.png"
+
 
 /*
  * ---------------------------------------------------------------
@@ -22,44 +28,44 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
-    title: "Project One",
-    image: null as string | null, // e.g. "/projects/project-one.png"
+    title: "Hotel Booking",
+    image: img5, // e.g. "/projects/project-one.png"
     description:
-      "Replace this with a short description of your project. What does it do? What problem does it solve?",
+      "Excited to share my hotel booking web application built to deliver a smooth and intuitive booking experience. Users can explore hotels, check availability, view room details, and book stays seamlessly through a clean and responsive interface.",
     tech: ["React", "Node.js", "MongoDB"],
     features: ["Feature 1", "Feature 2", "Feature 3"],
-    github: "https://github.com",
-    live: "https://example.com",
+    // github: "https://github.com",
+    // live: "https://example.com",
   },
   {
-    title: "Project Two",
-    image: null as string | null, // e.g. "/projects/project-two.png"
+    title: "Bacci Coffee House",
+    image: img4, // e.g. "/projects/project-two.png"
     description:
-      "Replace this with a short description of your project. What does it do? What problem does it solve?",
-    tech: ["Next.js", "Express", "MongoDB"],
+      "Check out! this is the latest website which I have developed for my client. It's a coffee house where user can place order with specific pick up time of his coffee",
+    tech: ["Wordpress", "Elementor", "Ecommerce"],
     features: ["Feature 1", "Feature 2", "Feature 3"],
-    github: "https://github.com",
-    live: "https://example.com",
+    // github: "https://github.com",
+    // live: "https://example.com",
   },
   {
-    title: "Project Three",
-    image: null as string | null, // e.g. "/projects/project-three.png"
+    title: "Ethiopis Pharmacy",
+    image: img1, // e.g. "/projects/project-three.png"
     description:
-      "Replace this with a short description of your project. What does it do? What problem does it solve?",
-    tech: ["React", "TypeScript", "Tailwind CSS"],
+      "Pleased to share Ethiopis Pharmacy, a comprehensive online pharmacy platform offering a wide range of medicines, wellness products, and health essentials with a user-friendly shopping experience. The site features secure payments, free delivery, 24/7 support, and expert health content — making it easy for customers to order authentic health products online with confidence.",
+    tech: ["Wordpress", "Elementor", "Ecommerce"],
     features: ["Feature 1", "Feature 2", "Feature 3"],
-    github: "https://github.com",
-    live: "https://example.com",
+    // github: "https://github.com",
+    // live: "https://example.com",
   },
   {
-    title: "Project Four",
-    image: null as string | null, // e.g. "/projects/project-four.png"
+    title: "Cake District",
+    image: img3, // e.g. "/projects/project-four.png"
     description:
-      "Replace this with a short description of your project. What does it do? What problem does it solve?",
-    tech: ["Next.js", "MongoDB", "Vercel"],
+      "Excited to share Cake District, a delicious online bakery platform offering a variety of sweet treats including cheesecakes, bites, desserts, dips, and more. With a user-friendly shop interface, customers in Kuwait can easily browse categories, explore best-selling items, and order their favorite desserts anytime. Perfect for satisfying dessert cravings or celebrating special moments!",
+    tech: ["Wordpress", "Elementor", "Ecommerce"],
     features: ["Feature 1", "Feature 2", "Feature 3"],
-    github: "https://github.com",
-    live: "https://example.com",
+    // github: "https://github.com",
+    // live: "https://example.com",
   },
 ]
 
@@ -115,7 +121,7 @@ export function Projects() {
                 )}
                 {/* Overlay with links on hover */}
                 <div className="absolute inset-0 flex items-center justify-center gap-3 bg-background/80 opacity-0 backdrop-blur-sm transition-opacity duration-300 group-hover:opacity-100">
-                  <a
+                  {/* <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -134,7 +140,7 @@ export function Projects() {
                   >
                     <ExternalLink className="h-4 w-4" />
                     Live
-                  </a>
+                  </a> */}
                 </div>
               </div>
 
@@ -146,7 +152,7 @@ export function Projects() {
                     {project.title}
                   </h3>
                   <div className="flex items-center gap-1.5 md:hidden">
-                    <a
+                    {/* <a
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -154,8 +160,8 @@ export function Projects() {
                       aria-label={`View ${project.title} on GitHub`}
                     >
                       <Github className="h-4 w-4" />
-                    </a>
-                    <a
+                    </a> */}
+                    {/* <a
                       href={project.live}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -163,7 +169,7 @@ export function Projects() {
                       aria-label={`View ${project.title} live demo`}
                     >
                       <ExternalLink className="h-4 w-4" />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
 
