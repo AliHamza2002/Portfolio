@@ -39,22 +39,26 @@ export function About() {
         <div className="grid gap-12 lg:grid-cols-2">
           <div className="space-y-5 text-muted-foreground">
             <p className="text-base leading-relaxed">
-              I&apos;m a software engineer specializing in the JavaScript ecosystem,
-              with deep expertise in the MERN stack. I build web applications
-              that are not only functional but crafted with attention to performance,
-              accessibility, and user experience.
+              I&apos;m Ali Hamza, a Software Engineering graduate specializing in modern 
+              web application development with a strong focus on the MERN stack. 
+              I build scalable, performance-driven web solutions that combine clean 
+              architecture with exceptional user experience. My approach blends 
+              technical precision with thoughtful design. 
+                        </p>
+            <p className="text-base leading-relaxed">
+               My experience spans full-stack JavaScript development, RESTful API design, 
+                authentication systems, real-time features, and cloud-ready deployments. 
+                Beyond MERN, I have worked on WordPress-based eCommerce platforms, 
+                online ordering systems, and Flutter applications integrated with Firebase. 
+                My academic background in Artificial Intelligence and Data Science 
+                strengthens my problem-solving and system design capabilities.
             </p>
             <p className="text-base leading-relaxed">
-              With experience spanning REST API design, authentication systems,
-              real-time features, and cloud deployments, I bring a full-stack
-              perspective to every project. I&apos;m passionate about open source,
-              continuous learning, and pushing the boundaries of what&apos;s possible
-              on the web.
-            </p>
-            <p className="text-base leading-relaxed">
-              When I&apos;m not coding, you can find me exploring new technologies,
-              contributing to developer communities, or refining my understanding
-              of software architecture and system design.
+              I&apos;m passionate about advanced web app architecture, scalable backend systems, 
+              and continuous learning. Whether developing custom business solutions, 
+              building dynamic dashboards, or experimenting with new technologies, 
+              I constantly strive to push my technical boundaries and deliver 
+              impactful digital experiences.
             </p>
           </div>
 
