@@ -21,7 +21,7 @@ export function Contact() {
       <div className="mx-auto max-w-6xl">
         <div className="mb-16">
           <p className="mb-3 font-mono text-sm text-primary">
-            {"// contact"}
+            {"Contact"}
           </p>
           <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             Get in touch
@@ -39,7 +39,7 @@ export function Contact() {
 
             <div className="space-y-4">
               <a
-                href="mailto:hello@example.com"
+                href="mailto:alihamzazubair@gmail.com"
                 className="flex items-center gap-3 text-muted-foreground transition-colors hover:text-foreground"
               >
                 <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
@@ -48,13 +48,13 @@ export function Contact() {
                 <div>
                   <p className="text-xs text-muted-foreground">Email</p>
                   <p className="text-sm font-medium text-foreground">
-                    hello@example.com
+                    alihamzazubair@gmail.com
                   </p>
                 </div>
               </a>
 
               <a
-                href="https://github.com"
+                href="https://github.com/AliHamza2002"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-muted-foreground transition-colors hover:text-foreground"
@@ -65,13 +65,13 @@ export function Contact() {
                 <div>
                   <p className="text-xs text-muted-foreground">GitHub</p>
                   <p className="text-sm font-medium text-foreground">
-                    github.com/yourprofile
+                    github.com/AliHamza2002
                   </p>
                 </div>
               </a>
 
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/ali-hamza-zubair/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-muted-foreground transition-colors hover:text-foreground"
@@ -82,7 +82,7 @@ export function Contact() {
                 <div>
                   <p className="text-xs text-muted-foreground">LinkedIn</p>
                   <p className="text-sm font-medium text-foreground">
-                    linkedin.com/in/yourprofile
+                    linkedin.com/in/ali-hamza-zubair
                   </p>
                 </div>
               </a>
