@@ -39,63 +39,63 @@ const experiences = [
   },
 ]
 
-// export function Experience() {
-//   return (
-//     <section id="experience" className="px-6 py-24 md:py-32">
-//       <div className="mx-auto max-w-6xl">
-//         <div className="mb-16">
-//           <p className="mb-3 font-mono text-sm text-primary">
-//             {"// experience"}
-//           </p>
-//           <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-//             Where I&apos;ve worked
-//           </h2>
-//         </div>
+export function Experience() {
+  return (
+    <section id="experience" className="px-6 py-24 md:py-32">
+      <div className="mx-auto max-w-6xl">
+        <div className="mb-16">
+          <p className="mb-3 font-mono text-sm text-primary">
+            {"// experience"}
+          </p>
+          <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+            Where I&apos;ve worked
+          </h2>
+        </div>
 
-//         <div className="space-y-2">
-//           {experiences.map((exp) => (
-//             <div
-//               key={exp.role}
-//               className="group rounded-xl border border-transparent p-6 transition-all hover:border-border hover:bg-card"
-//             >
-//               <div className="grid gap-4 md:grid-cols-[200px_1fr]">
-//                 <div className="font-mono text-sm text-muted-foreground">
-//                   {exp.period}
-//                 </div>
-//                 <div>
-//                   <h3 className="mb-1 text-base font-semibold text-foreground">
-//                     {exp.role}{" "}
-//                     <span className="text-primary">
-//                       {"@"}{" "}
-//                       <a
-//                         href={exp.companyUrl}
-//                         target="_blank"
-//                         rel="noopener noreferrer"
-//                         className="hover:underline"
-//                       >
-//                         {exp.company}
-//                       </a>
-//                     </span>
-//                   </h3>
-//                   <p className="mb-4 text-sm leading-relaxed text-muted-foreground">
-//                     {exp.description}
-//                   </p>
-//                   <div className="flex flex-wrap gap-2">
-//                     {exp.tech.map((t) => (
-//                       <span
-//                         key={t}
-//                         className="rounded-md bg-primary/10 px-2.5 py-1 font-mono text-xs text-primary"
-//                       >
-//                         {t}
-//                       </span>
-//                     ))}
-//                   </div>
-//                 </div>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   )
-// }
+        <div className="space-y-2">
+          {experiences.map((exp) => (
+            <div
+              key={exp.role}
+              className="group rounded-xl border border-transparent p-6 transition-all hover:border-border hover:bg-card"
+            >
+              <div className="grid gap-4 md:grid-cols-[200px_1fr]">
+                <div className="font-mono text-sm text-muted-foreground">
+                  {exp.period}
+                </div>
+                <div>
+                  <h3 className="mb-1 text-base font-semibold text-foreground">
+                    {exp.role}{" "}
+                    <span className="text-primary">
+                      {"@"}{" "}
+                      <a
+                        href={exp.companyUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                      >
+                        {exp.company}
+                      </a>
+                    </span>
+                  </h3>
+                  <p className="mb-4 text-sm leading-relaxed text-muted-foreground">
+                    {exp.description}
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {exp.tech.map((t) => (
+                      <span
+                        key={t}
+                        className="rounded-md bg-primary/10 px-2.5 py-1 font-mono text-xs text-primary"
+                      >
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
