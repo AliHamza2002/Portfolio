@@ -1,43 +1,43 @@
-// "use client"
+"use client"
 
-// const experiences = [
-//   {
-//     period: "2023 -- Present",
-//     role: "Senior Full-Stack Developer",
-//     company: "TechVentures Inc.",
-//     companyUrl: "https://example.com",
-//     description:
-//       "Lead development of customer-facing web applications serving 50K+ daily users. Architected a microservices migration that improved response times by 40%.",
-//     tech: ["React", "Node.js", "MongoDB", "TypeScript", "AWS"],
-//   },
-//   {
-//     period: "2021 -- 2023",
-//     role: "Full-Stack Developer",
-//     company: "Digital Solutions Co.",
-//     companyUrl: "https://example.com",
-//     description:
-//       "Built and maintained multiple MERN stack applications for enterprise clients. Implemented CI/CD pipelines and automated testing that reduced deployment errors by 60%.",
-//     tech: ["React", "Express", "MongoDB", "Jest", "Docker"],
-//   },
-//   {
-//     period: "2020 -- 2021",
-//     role: "Frontend Developer",
-//     company: "StartupLab",
-//     companyUrl: "https://example.com",
-//     description:
-//       "Developed responsive, accessible user interfaces for a SaaS analytics platform. Improved core web vitals scores across the board, boosting SEO rankings significantly.",
-//     tech: ["React", "Next.js", "Tailwind CSS", "Redux"],
-//   },
-//   {
-//     period: "2019 -- 2020",
-//     role: "Junior Developer",
-//     company: "CodeCraft Agency",
-//     companyUrl: "https://example.com",
-//     description:
-//       "Contributed to client projects building custom CMS solutions and e-commerce platforms. Gained foundational experience in full-stack JavaScript development.",
-//     tech: ["JavaScript", "Node.js", "MongoDB", "Express"],
-//   },
-// ]
+const experiences = [
+  {
+    period: "2023 -- Present",
+    role: "Senior Full-Stack Developer",
+    company: "TechVentures Inc.",
+    companyUrl: "https://example.com",
+    description:
+      "Lead development of customer-facing web applications serving 50K+ daily users. Architected a microservices migration that improved response times by 40%.",
+    tech: ["React", "Node.js", "MongoDB", "TypeScript", "AWS"],
+  },
+  {
+    period: "2021 -- 2023",
+    role: "Full-Stack Developer",
+    company: "Digital Solutions Co.",
+    companyUrl: "https://example.com",
+    description:
+      "Built and maintained multiple MERN stack applications for enterprise clients. Implemented CI/CD pipelines and automated testing that reduced deployment errors by 60%.",
+    tech: ["React", "Express", "MongoDB", "Jest", "Docker"],
+  },
+  {
+    period: "2020 -- 2021",
+    role: "Frontend Developer",
+    company: "StartupLab",
+    companyUrl: "https://example.com",
+    description:
+      "Developed responsive, accessible user interfaces for a SaaS analytics platform. Improved core web vitals scores across the board, boosting SEO rankings significantly.",
+    tech: ["React", "Next.js", "Tailwind CSS", "Redux"],
+  },
+  {
+    period: "2019 -- 2020",
+    role: "Junior Developer",
+    company: "CodeCraft Agency",
+    companyUrl: "https://example.com",
+    description:
+      "Contributed to client projects building custom CMS solutions and e-commerce platforms. Gained foundational experience in full-stack JavaScript development.",
+    tech: ["JavaScript", "Node.js", "MongoDB", "Express"],
+  },
+]
 
 // export function Experience() {
 //   return (
