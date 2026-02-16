@@ -3,6 +3,7 @@
 import { ArrowDown, Github, Linkedin, Twitter } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useEffect, useState } from "react"
+import profilepic from "../../public/pic.png"
 
 const roles = [
   "Software Engineer",
@@ -52,7 +53,7 @@ export function Hero() {
 
           <h1 className="mb-2 text-balance text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
             {"I'm "}
-            <span className="text-primary">Your Name</span>
+            <span className="text-primary">Ali Hamza</span>
           </h1>
 
           <div className="my-6 flex h-10 items-center justify-center lg:justify-start">
@@ -93,7 +94,8 @@ export function Hero() {
           <div className="relative">
             <div className="h-64 w-64 overflow-hidden rounded-full border-4 border-primary/20 bg-card shadow-2xl shadow-primary/10 sm:h-80 sm:w-80">
               {/* Replace with your image: <Image src="/your-photo.png" ... /> */}
-              <div className="flex h-full w-full items-center justify-center bg-secondary/50">
+              <img src="profilepic" alt="" />
+              {/* <div className="flex h-full w-full items-center justify-center bg-secondary/50">
                 <svg
                   width="120"
                   height="120"
@@ -109,7 +111,7 @@ export function Hero() {
                     fill="none"
                   />
                 </svg>
-              </div>
+              </div> */}
             </div>
             {/* Decorative glow */}
             <div className="pointer-events-none absolute -inset-8 rounded-full bg-primary/5 blur-3xl" />
