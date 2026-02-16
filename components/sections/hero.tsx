@@ -133,7 +133,7 @@ export function Hero() {
         </span>
         <div className="h-px w-8 bg-border" />
         <a
-          href="https://github.com"
+          href="https://github.com/AliHamza2002"
           target="_blank"
           rel="noopener noreferrer"
           className="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-card text-muted-foreground transition-all hover:border-primary hover:text-primary hover:shadow-md hover:shadow-primary/10"
@@ -142,7 +142,7 @@ export function Hero() {
           <Github className="h-4 w-4" />
         </a>
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/ali-hamza-zubair/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-card text-muted-foreground transition-all hover:border-primary hover:text-primary hover:shadow-md hover:shadow-primary/10"
@@ -150,7 +150,7 @@ export function Hero() {
         >
           <Linkedin className="h-4 w-4" />
         </a>
-        <a
+        {/* <a
           href="https://twitter.com"
           target="_blank"
           rel="noopener noreferrer"
@@ -158,7 +158,7 @@ export function Hero() {
           aria-label="Twitter"
         >
           <Twitter className="h-4 w-4" />
-        </a>
+        </a> */}
       </div>
     </section>
   )
