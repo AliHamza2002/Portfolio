@@ -3,6 +3,7 @@
 import { ArrowDown, Github, Linkedin, Twitter } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useEffect, useState } from "react"
+import Image from "next/image"
 import profilepic from "../../public/pic.png"
 
 const roles = [
@@ -94,7 +95,13 @@ export function Hero() {
           <div className="relative">
             <div className="h-64 w-64 overflow-hidden rounded-full border-4 border-primary/20 bg-card shadow-2xl shadow-primary/10 sm:h-80 sm:w-80">
               {/* Replace with your image: <Image src="/your-photo.png" ... /> */}
-              <img src="profilepic" alt="" />
+              <Image
+                  src={profilepic}
+                  alt="Ali Hamza"
+                  className="h-full w-full object-cover"
+                  priority
+                />
+
               {/* <div className="flex h-full w-full items-center justify-center bg-secondary/50">
                 <svg
                   width="120"
