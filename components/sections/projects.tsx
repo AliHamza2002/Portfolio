@@ -93,7 +93,7 @@ export function Projects() {
       <div className="mx-auto max-w-6xl">
         <div className="mb-16">
           <p className="mb-3 font-mono text-sm text-primary">
-            {"// projects"}
+            {"Projects"}
           </p>
           <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             Selected work
