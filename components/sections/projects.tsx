@@ -39,7 +39,7 @@ const projects = [
   },
   {
     title: "Bacci Coffee House",
-    image: img4, // e.g. "/projects/project-two.png"
+    image: img1, // e.g. "/projects/project-two.png"
     description:
       "Check out! this is the latest website which I have developed for my client. It's a coffee house where user can place order with specific pick up time of his coffee",
     tech: ["Wordpress", "Elementor", "Ecommerce"],
@@ -49,7 +49,7 @@ const projects = [
   },
   {
     title: "Ethiopis Pharmacy",
-    image: img1, // e.g. "/projects/project-three.png"
+    image: img4, // e.g. "/projects/project-three.png"
     description:
       "Pleased to share Ethiopis Pharmacy, a comprehensive online pharmacy platform offering a wide range of medicines, wellness products, and health essentials with a user-friendly shopping experience. The site features secure payments, free delivery, 24/7 support, and expert health content — making it easy for customers to order authentic health products online with confidence.",
     tech: ["Wordpress", "Elementor", "Ecommerce"],
@@ -59,7 +59,7 @@ const projects = [
   },
   {
     title: "Cake District",
-    image: img3, // e.g. "/projects/project-four.png"
+    image: img2, // e.g. "/projects/project-four.png"
     description:
       "Excited to share Cake District, a delicious online bakery platform offering a variety of sweet treats including cheesecakes, bites, desserts, dips, and more. With a user-friendly shop interface, customers in Kuwait can easily browse categories, explore best-selling items, and order their favorite desserts anytime. Perfect for satisfying dessert cravings or celebrating special moments!",
     tech: ["Wordpress", "Elementor", "Ecommerce"],
@@ -120,8 +120,8 @@ export function Projects() {
                   <ImagePlaceholder />
                 )}
                 {/* Overlay with links on hover */}
-                <div className="absolute inset-0 flex items-center justify-center gap-3 bg-background/80 opacity-0 backdrop-blur-sm transition-opacity duration-300 group-hover:opacity-100">
-                  {/* <a
+                {/* <div className="absolute inset-0 flex items-center justify-center gap-3 bg-background/80 opacity-0 backdrop-blur-sm transition-opacity duration-300 group-hover:opacity-100">
+                  <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -140,8 +140,8 @@ export function Projects() {
                   >
                     <ExternalLink className="h-4 w-4" />
                     Live
-                  </a> */}
-                </div>
+                  </a>
+                </div> */}
               </div>
 
               {/* Content */}
@@ -151,8 +151,8 @@ export function Projects() {
                   <h3 className="text-lg font-semibold text-foreground">
                     {project.title}
                   </h3>
-                  <div className="flex items-center gap-1.5 md:hidden">
-                    {/* <a
+                  {/* <div className="flex items-center gap-1.5 md:hidden">
+                    <a
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -160,8 +160,8 @@ export function Projects() {
                       aria-label={`View ${project.title} on GitHub`}
                     >
                       <Github className="h-4 w-4" />
-                    </a> */}
-                    {/* <a
+                    </a>
+                    <a
                       href={project.live}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -169,8 +169,8 @@ export function Projects() {
                       aria-label={`View ${project.title} live demo`}
                     >
                       <ExternalLink className="h-4 w-4" />
-                    </a> */}
-                  </div>
+                    </a>
+                  </div> */}
                 </div>
 
                 {/* Description */}
