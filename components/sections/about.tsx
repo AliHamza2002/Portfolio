@@ -30,7 +30,7 @@ export function About() {
     <section id="about" className="px-6 py-24 md:py-32">
       <div className="mx-auto max-w-6xl">
         <div className="mb-16">
-          <p className="mb-3 font-mono text-sm text-primary">{"// About"}</p>
+          <p className="mb-3 font-mono text-sm text-primary">{"About"}</p>
           <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             A developer who cares about the craft
           </h2>
