@@ -85,7 +85,7 @@ export function Hero() {
               size="lg"
               className="gap-2 font-medium border-primary/30 hover:bg-primary/10 hover:text-primary"
             >
-              <a href="#contact">Get in Touch</a>
+              <a href="https://docs.google.com/document/d/1MprEc8YAQOtm08ofziVe_YliM1gwKkVolsIyTY2KKkg/edit?usp=sharing">View Resume</a>
             </Button>
           </div>
         </div>
