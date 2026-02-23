@@ -14,6 +14,12 @@ export const metadata: Metadata = {
   title: 'Software Engineer | JavaScript & MERN Stack Developer',
   description:
     'Portfolio of a software engineer specializing in JavaScript, React, Node.js, and the MERN stack. Building performant, scalable web applications.',
+    icons: {
+    icon: '/project/developer_10329484.png',   // main favicon
+    shortcut: '/project/developer_10329484.png', // legacy support
+    apple: '/project/developer_10329484.png',  // iOS home screen
+  },
+    
 }
 
 export const viewport: Viewport = {
