@@ -85,7 +85,7 @@ export function Hero() {
               size="lg"
               className="gap-2 font-medium border-primary/30 hover:bg-primary/10 hover:text-primary"
             >
-              <a href="https://drive.google.com/file/d/1A8eH3zTYFr8dNQYl--soYkdYvhgJC1US/view?usp=drive_link">View Resume</a>
+              <a href="https://drive.google.com/file/d/1A8eH3zTYFr8dNQYl--soYkdYvhgJC1US/view?usp=drive_link" target="_blank">View Resume</a>
             </Button>
           </div>
         </div>
