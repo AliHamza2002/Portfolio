@@ -10,11 +10,35 @@ import { Label } from "@/components/ui/label"
 export function Contact() {
   const [submitted, setSubmitted] = useState(false)
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    setSubmitted(true)
-    setTimeout(() => setSubmitted(false), 3000)
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault()
+
+  const formData = new FormData(e.currentTarget)
+
+  const data = {
+    name: formData.get("name"),
+    email: formData.get("email"),
+    subject: formData.get("subject"),
+    message: formData.get("message"),
   }
+
+  try {
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    })
+
+    if (res.ok) {
+      setSubmitted(true)
+      setTimeout(() => setSubmitted(false), 3000)
+    }
+  } catch (err) {
+    console.error(err)
+  }
+}
 
   return (
     <section id="contact" className="px-6 py-24 md:py-32">
