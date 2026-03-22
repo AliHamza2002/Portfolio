@@ -1,10 +1,11 @@
-import { Resend } from "resend"
+import { NextRequest, NextResponse } from 'next/server'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
-
-export async function POST(req: Request) {
+export async function POST(req: NextRequest) {
   try {
     const { name, email, subject, message } = await req.json()
+
+    const { Resend } = await import('resend')
+    const resend = new Resend(process.env.RESEND_API_KEY)
 
     const response = await resend.emails.send({
       from: "Portfolio <onboarding@resend.dev>",
@@ -19,9 +20,9 @@ export async function POST(req: Request) {
       `,
     })
 
-    return Response.json({ success: true })
+    return NextResponse.json({ success: true })
   } catch (error) {
-    console.error(error)
-    return Response.json({ success: false })
+    console.error('Contact API error:', error)
+    return NextResponse.json({ success: false, error: (error as Error).message })
   }
 }
