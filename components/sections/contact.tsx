@@ -136,6 +136,7 @@ export function Contact() {
                     </Label>
                     <Input
                       id="name"
+                      name="name"
                       placeholder="Your name"
                       required
                       className="bg-background"
@@ -147,6 +148,7 @@ export function Contact() {
                     </Label>
                     <Input
                       id="email"
+                      name="email"
                       type="email"
                       placeholder="you@example.com"
                       required
@@ -160,6 +162,7 @@ export function Contact() {
                   </Label>
                   <Input
                     id="subject"
+                    name="subject"
                     placeholder="What's this about?"
                     required
                     className="bg-background"
@@ -171,6 +174,7 @@ export function Contact() {
                   </Label>
                   <Textarea
                     id="message"
+                    name="message"
                     placeholder="Tell me about your project..."
                     rows={5}
                     required
